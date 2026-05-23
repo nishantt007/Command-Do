@@ -1,4 +1,4 @@
-# Jarvis – Personal Voice Assistant
+# Command-Do – Personal Voice Assistant
 
 A Python-based desktop voice assistant that responds to spoken commands for tasks like web browsing, Wikipedia lookups, time queries, and sending emails.
 
@@ -6,8 +6,10 @@ A Python-based desktop voice assistant that responds to spoken commands for task
 
 - **Wikipedia Search** – Fetches and reads a brief summary aloud
 - **Web Navigation** – Opens Google, YouTube, and Stack Overflow
+- **Time Query** – Announces the current system time
 - **App Launch** – Opens VS Code via voice command
 - **Email Sending** – Composes and sends Gmail messages by voice
+- **Contextual Greeting** – Greets based on time of day
 
 ## Requirements
 
@@ -44,3 +46,13 @@ pip install pyttsx3 SpeechRecognition wikipedia python-dotenv
    ```bash
    python personal_voice_assistant.py
    ```
+
+## Commands
+
+| Voice Command | Action |
+|---|---|
+| `search <topic> wikipedia` | Read Wikipedia summary |
+| `open google / youtube / stackoverflow` | Open in browser |
+| `what's the time` | Announce current time |
+| `open code` | Launch VS Code |
+| `email to nishant` | Send a voice-dictated email |
